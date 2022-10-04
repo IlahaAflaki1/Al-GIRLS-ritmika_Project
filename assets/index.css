@@ -61,6 +61,74 @@
 /*fifth_section_main START*/
 /*fifth_section_main END*/
 
+/*footer START*/
+footer1{
+    background-color: #9DC9C8;
+    ;
+}
+.fotter12{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.nacalokursa{
+    font-family: var(--robotoSlab);
+font-weight: 700;
+font-size: 26px;
+line-height: 101.38%;
+color: #000000;
+margin-bottom: 23px;
+}
+.stoimost{
+    font-family: var(--roboto);
+font-weight: 400;
+font-size: 12px;
+line-height: 101.38%;
+color: #000000;
+
+}
+.rubl{
+/* or 38px */
+font-family: var(--roboto);
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 101.38%;
+color: #000000;
+margin-bottom: 23px;
+}
+.footer1dflexcontainer{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.footer1dflex{
+    margin-bottom: 5px;
+    margin-left: 55px;
+    /* width: 200px; */
+}
+.footer1dflexsectionsrightsec{
+    margin-left: 10px;
+}
+.fotter1dflextitle{
+    font-family: var(--roboto);
+font-weight: 400;
+font-size: 19px;
+line-height: 101.38%;
+color: #000000;
+/* margin-right: 20px; */
+margin-top: 10px;
+}
+.fotter1dflextext{
+    font-family: var(--roboto);
+font-weight: 400;
+font-size: 15px;
+line-height: 101.38%;
+color: #000000;
+/* width: 180px; */
+/* margin-right: 20px; */
+margin-top: 10px;
+}
+/*footer END */
+
 }
 
 
