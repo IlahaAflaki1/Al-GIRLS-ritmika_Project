@@ -5,6 +5,10 @@
 
 /* ----------------------------------------------------------- */
 /* destkop */
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --robotoSlab: 'Roboto Slab', serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -12,21 +16,102 @@
 
 
 /* header START*/
-.img_h{
-    
-    width: 112px;
-    height: 66px;
-
+.width80{
+    width: 80%;
+    margin: auto;
 }
+
+
 /* header END */
 
 
 /*first_section_main START*/
-.imgglobe{
+#sinxronizachiya{
+    margin-top: 81px;
+}
+#homepage{
+    margin-top: 97px;
+    margin-bottom: 87.62px;
+    display: flex;
+    justify-content: space-between;
 
-    width: 22px;
-    height: 21px;
+}
+.littlenav{
+    display: flex;
+}
+.navsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.navsection img{
+    margin-right: 8px;
     
+}
+
+.navtitles{
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+#homepageimgbigdiv{
+
+    width: 100%;
+}
+#homepageimg{
+     text-align: end;
+     display: flex; 
+     justify-content: flex-end;
+     width: 304px !important ; 
+     width: 300px; 
+}
+#homepagetitle{
+    font-family: var(--robotoSlab);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-top: 29px;
+    width: 628px;
+}
+#homepagetext{
+    margin-top: 15px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    width: 414px;
+}
+.blueboxcontainer{
+    display: flex;
+    justify-content: center;
+}
+#bluebox{
+     margin: auto;
+    padding: 19px 26px;
+    background-color: #1E4681;
+    color: white;
+    width: 483.63px;
+    margin-bottom: 80px;
+
+}
+#blueboxtext{
+    font-family: var(--robotoSlab);
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #FFFFFF;
+}
+#blueboxname{
+    font-family: var(--roboto);
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+text-align: right;
 }
 /*first_section_main END*/
 
